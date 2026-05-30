@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pip install anthropic instaloader 2>&1)",
+      "PowerShell([System.Environment]::GetEnvironmentVariable\\(\"ANTHROPIC_API_KEY\", \"User\"\\) | ForEach-Object { if \\($_\\) { \"Key found \\(length: $\\($_.Length\\)\\)\" } else { \"Not set in user environment\" } })",
+      "PowerShell(pip install python-dotenv 2>&1)"
+    ]
+  }
+}
