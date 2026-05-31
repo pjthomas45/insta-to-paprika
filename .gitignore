@@ -3,3 +3,9 @@
 __pycache__/
 *.pyc
 *.paprikarecipe
+
+
+# VS and Claude 
+.vscode/
+.idea/
+.claude/
