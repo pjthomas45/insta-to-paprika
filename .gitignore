@@ -1,5 +1,6 @@
 .venv/
 .env
+.instagram_session.json
 __pycache__/
 *.pyc
 *.paprikarecipe
